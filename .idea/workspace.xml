@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3372c0fc-2eed-429d-87e4-1b7b25cf8c52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/src/R/core.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/src/R/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/src/R/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/src/jsxFactory.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.simple-jsx/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/core.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/creators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/fiber-ops.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/handle-dom-attributes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/utility.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/jsxFactory.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.unit-of-work/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ib1WNznuMbxuWNaNDMzS6Uod2A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/natas/WebstormProjects/OTHER/custom-react-with-hooks/2.unit-of-work",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\natas\\WebstormProjects\\OTHER\\custom-react-with-hooks\\1.simple-jsx\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\2.unit-of-work" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\src\libs\R\core.ts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\1.simple-jsx\src" />
+      <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\1.simple-jsx" />
+      <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev (1)">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/2.unit-of-work/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3372c0fc-2eed-429d-87e4-1b7b25cf8c52" name="Changes" comment="" />
+      <created>1719744493322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719744493322</updated>
+      <workItem from="1719744494380" duration="12861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
