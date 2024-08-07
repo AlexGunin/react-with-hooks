@@ -9,12 +9,14 @@
     "jsx": "preserve",
     "jsxFactory": "R.createElement",
     "jsxFragmentFactory": "R.Fragment",
+
+    // Таким образом в esbuild можно добиться поведения, при котором не обязательно импортировать Реакт везде, где требуется jsx
+    // "jsxInject": "import R from './src/R'",
     // End
 
     "skipLibCheck": true,
 
-    /* Bundler mode */
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -28,6 +30,6 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src"
+    "2.unit-of-work/src"
   ]
 }

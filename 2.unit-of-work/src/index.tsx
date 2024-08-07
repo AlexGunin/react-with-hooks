@@ -1,14 +1,42 @@
-import R from './R'
+import R from './R';
 
+const Counter = () => {
+    const [counter, setCounter] = R.useState(0);
 
-const element = <div>
-  <p>Hello World</p>
-  <button>Click</button>
-</div>
+    R.useEffect(() => {
+        return () => {
+            console.log('Unmount');
+        };
+    }, []);
 
+    return (
+        <div>
+            <p>Hello World {counter}</p>
+            <button onClick={() => setCounter(counter + 1)}>Click</button>
+        </div>
+    );
+};
 
-const container = document.getElementById('app')
+const App = () => {
+    const [isVisible, setIsVisible] = R.useState(false);
 
-if(container) {
-  R.render(element, container)
+    R.useLayoutEffect(() => {
+        console.log('ON CHANGE VISIBLE');
+    }, [isVisible]);
+
+    R.useEffect(() => {
+        console.log('Effect');
+
+        setInterval(() => {
+            setIsVisible((prev) => !prev);
+        }, 5000);
+    }, []);
+
+    return <div>{isVisible && <Counter key="qwe" />}</div>;
+};
+
+const container = document.getElementById('app');
+
+if (container) {
+    R.render(<App />, container);
 }

@@ -1,8 +1,9 @@
-import {createElement, render} from "./core";
-export * from './types'
+import { createElement, render } from './core';
+export * from './types';
 
 const R = {
-  createElement, render
-}
+    createElement,
+    render,
+};
 
-export default R
+export default R;
