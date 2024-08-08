@@ -4,31 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3372c0fc-2eed-429d-87e4-1b7b25cf8c52" name="Changes" comment="">
+    <list default="true" id="3372c0fc-2eed-429d-87e4-1b7b25cf8c52" name="Changes" comment="feat: add 2 step">
+      <change afterPath="$PROJECT_DIR$/src/1.simple-jsx/R/core.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1.simple-jsx/R/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1.simple-jsx/R/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1.simple-jsx/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/core.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/global-state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/helpers/creators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/helpers/fiber-ops.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/helpers/handle-dom-attributes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/helpers/is.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/render.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/types/core.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2.unit-of-work/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/4.example/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/4.example/todo-list/new-todo-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/4.example/todo-list/todo-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/4.example/todo-list/todo-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.simple-jsx/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/R/core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/1.simple-jsx/src/R/core.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/R/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/1.simple-jsx/src/R/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/R/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/1.simple-jsx/src/R/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/1.simple-jsx/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/jsxFactory.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/1.simple-jsx/src/jsxFactory.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1.simple-jsx/src/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.simple-jsx/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/core.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/creators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/fiber-ops.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/fiber-ops.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/handle-dom-attributes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/handle-dom-attributes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/utility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/utility.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2.unit-of-work/src/R/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/app.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/2.unit-of-work/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/jsxFactory.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2.unit-of-work/src/jsxFactory.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.unit-of-work/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/R/core.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/R/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/R/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/jsxFactory.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.simple-jsx/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/core.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/global-state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/creators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/effects.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/fiber-ops.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/handle-dom-attributes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/is.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/helpers/utility.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/render.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/types/core.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/types/hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/R/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/jsxFactory.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.unit-of-work/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/src/NewTodoForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/src/TodoItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/src/TodoList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/todo-list/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,54 +98,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ayugunin/Desktop/code/react-with-hooks&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev (1).executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/ayugunin/Desktop/code/react-with-hooks/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/ayugunin/Desktop/code/react-with-hooks/2.unit-of-work/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/ayugunin/Desktop/code/react-with-hooks/src/4.example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.dev (1).executor": "Run",
+    "npm.dev (2).executor": "Run",
+    "npm.dev (3).executor": "Run",
+    "npm.dev (4).executor": "Run",
+    "npm.dev (5).executor": "Run",
+    "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "/Users/ayugunin/Desktop/code/react-with-hooks/node_modules/prettier",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "two.files.diff.last.used.folder": "/Users/ayugunin/Desktop/code/react-with-hooks/2.unit-of-work/src",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/4.example" />
+      <recent name="$PROJECT_DIR$/src/3.hooks" />
+      <recent name="$PROJECT_DIR$/src/2.unit-of-work" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\2.unit-of-work" />
+      <recent name="$PROJECT_DIR$/4.key" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\src\libs\R\core.ts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/4.example" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/2.unit-of-work" />
-      <recent name="$PROJECT_DIR$/babbel" />
-      <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\1.simple-jsx\src" />
-      <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\1.simple-jsx" />
+      <recent name="$PROJECT_DIR$/src/3.hooks" />
+      <recent name="$PROJECT_DIR$/src/2.unit-of-work" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (1)">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/react/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.dev (5)">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/2.unit-of-work/package.json" />
       <command value="run" />
@@ -107,8 +155,38 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="dev (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/1.simple-jsx/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (4)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/4.keys/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (5)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/4.example/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -119,9 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (1)" />
-        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev (5)" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev (4)" />
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -147,11 +227,25 @@
       <workItem from="1722671813580" duration="28181000" />
       <workItem from="1722861108544" duration="17299000" />
       <workItem from="1723002535898" duration="19183000" />
-      <workItem from="1723024689174" duration="8982000" />
+      <workItem from="1723024689174" duration="9744000" />
+      <workItem from="1723115481171" duration="29102000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add 2 step">
+      <option name="closed" value="true" />
+      <created>1723047130008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723047130008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add 2 step" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add 2 step" />
   </component>
 </project>
