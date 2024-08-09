@@ -6,9 +6,9 @@ import * as Fourth from './4.example';
 
 const container = document.getElementById('app');
 
-if (container) {
-    First.R.render(<First.App />, container);
-}
+// if (container) {
+//     First.R.render(<First.App />, container);
+// }
 
 // Для проверки - расскоментировать нужную версию
 
@@ -16,9 +16,9 @@ if (container) {
 //     Second.R.render(<Second.App />, container);
 // }
 //
-// if (container) {
-//     Third.R.render(<Third.App />, container);
-// }
+if (container) {
+    Third.R.render(<Third.App />, container);
+}
 //
 // if (container) {
 //     Fourth.R.render(<Fourth.App />, container);

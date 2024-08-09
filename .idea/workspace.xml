@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3372c0fc-2eed-429d-87e4-1b7b25cf8c52" name="Changes" comment="refactor">
+    <list default="true" id="3372c0fc-2eed-429d-87e4-1b7b25cf8c52" name="Changes" comment="feat: добавлен хук для запросов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2.unit-of-work/R/render.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/render.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2.unit-of-work/R/types/core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/2.unit-of-work/R/types/core.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/3.hooks/R/core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/3.hooks/R/core.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/3.hooks/R/types/core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/3.hooks/R/types/core.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/4.example/R/helpers/creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/4.example/R/helpers/creators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/4.example/R/types/core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/4.example/R/types/core.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/core.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/global-state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/helpers/creators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/helpers/effects.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/helpers/fiber-ops.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/helpers/handle-dom-attributes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/helpers/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/helpers/is.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/render.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/types/core.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/types/hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/R/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.example/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +67,7 @@
     "npm.dev (5).executor": "Run",
     "npm.dev.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/Users/ayugunin/Desktop/code/react-with-hooks/node_modules/prettier",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "two.files.diff.last.used.folder": "/Users/ayugunin/Desktop/code/react-with-hooks/2.unit-of-work/src",
     "vue.rearranger.settings.migration": "true"
@@ -62,10 +76,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/4.example" />
+      <recent name="$PROJECT_DIR$/src/4.todo-list" />
       <recent name="$PROJECT_DIR$/src/3.hooks" />
       <recent name="$PROJECT_DIR$/src/2.unit-of-work" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/4.key" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="C:\Users\natas\WebstormProjects\OTHER\custom-react-with-hooks\src\libs\R\core.ts" />
@@ -162,7 +176,7 @@
       <workItem from="1722861108544" duration="17299000" />
       <workItem from="1723002535898" duration="19183000" />
       <workItem from="1723024689174" duration="9744000" />
-      <workItem from="1723115481171" duration="41338000" />
+      <workItem from="1723115481171" duration="49440000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add 2 step">
       <option name="closed" value="true" />
@@ -180,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723151109442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: обновлен jsdoc для типов">
+      <option name="closed" value="true" />
+      <created>1723188046932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723188046932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +211,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add 2 step" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="feat: обновлен jsdoc для типов" />
+    <MESSAGE value="feat: добавлен хук для запросов" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: добавлен хук для запросов" />
   </component>
 </project>
